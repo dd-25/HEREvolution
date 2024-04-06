@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/HEREvolution/index.html',
+  base: '/HEREvolution',
   build: {
     assetsDir: 'assets',
     outDir: 'dist',
