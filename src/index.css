@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  overflow: hidden;
 }
 
 .mapContainer {
@@ -52,10 +53,10 @@ button:hover {
 .formouter{
   position:absolute;
   background-color: rgba(210, 210, 222, 0.622);
-  width: 40rem;
+  width: 30rem;
   border-radius: 1rem;
-  left: 25rem;
-  top: 2rem;
+  left: 1rem;
+  top: .5rem;
   
 }
 .industryouter{
@@ -116,7 +117,7 @@ button:hover {
 
 .card
 {
-  top: 12rem;
+  top: 23rem;
   text-align: center;
   z-index: 2;
   position: absolute;
@@ -125,5 +126,12 @@ button:hover {
   background-color: rgba(210, 210, 222, 0.622);
   color: black;
   border-radius: 1rem;
-  left: 1rem;
+  left: 5rem;
 }
+
+
+
+
+
+
+

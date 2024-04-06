@@ -386,11 +386,11 @@ function Map() {
             markersArray.forEach(markerData => {
                 try {
                     const marker = new H.map.Marker(markerData);
-                    // Add event listener for marker click
+                    
                     marker.addEventListener('tap', (e) => {
 
                         const { lat, lng } = e.target.getGeometry();
-                        // Update data state with lat and lng
+                    
                         setdata({ lat, lng });
                         console.log(data)
                         console.log('this is data')
